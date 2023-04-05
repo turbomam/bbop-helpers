@@ -1,0 +1,2 @@
+RUN = poetry run
+

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bbop-helpers"
+version = "0.1.0"
+description = "Helpers for BBOP projects, esp. LinkML and NMDC"
+authors = ["Mark A. Miller <mamillerpa@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bbop_helpers"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
